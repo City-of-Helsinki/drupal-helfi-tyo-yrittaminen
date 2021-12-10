@@ -60,3 +60,5 @@ permissions:
   - 'create hel_map media'
   - 'delete own hel_map media'
   - 'edit own hel_map media'
+  - 'view any unpublished landing_page content'
+  - 'view any unpublished page content'

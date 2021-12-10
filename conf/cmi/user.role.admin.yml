@@ -115,3 +115,4 @@ permissions:
   - 'delete own hel_map media'
   - 'edit any hel_map media'
   - 'edit own hel_map media'
+  - 'view any unpublished content'
