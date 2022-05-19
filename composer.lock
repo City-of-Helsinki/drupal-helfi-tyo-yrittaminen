@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f83f58a3ba8a894350f4b9881020b582",
+    "content-hash": "5e357c599b0e0d878316ed54af25bae8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -176,68 +176,6 @@
             "time": "2020-12-05T05:59:11+00:00"
         },
         {
-            "name": "city-of-helsinki/php-hauki-client",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/City-of-Helsinki/php-hauki-client.git",
-                "reference": "868851cae1685cd8d5521d0d5ac266b80e6c2a71"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/php-hauki-client/zipball/868851cae1685cd8d5521d0d5ac266b80e6c2a71",
-                "reference": "868851cae1685cd8d5521d0d5ac266b80e6c2a71",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "guzzlehttp/guzzle": "^6.2",
-                "php": ">=7.2"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.12",
-                "phpunit/phpunit": "^8.0 || ^9.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Hauki\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Hauki\\Test\\": "test/"
-                }
-            },
-            "license": [
-                "unlicense"
-            ],
-            "authors": [
-                {
-                    "name": "OpenAPI-Generator contributors",
-                    "homepage": "https://openapi-generator.tech"
-                }
-            ],
-            "description": "API for the City of Helsinki opening hours database  # Introduction  To do.  # Authentication methods  <SecurityDefinitions />",
-            "homepage": "https://openapi-generator.tech",
-            "keywords": [
-                "api",
-                "openapi",
-                "openapi-generator",
-                "openapitools",
-                "php",
-                "rest",
-                "sdk"
-            ],
-            "support": {
-                "source": "https://github.com/City-of-Helsinki/php-hauki-client/tree/1.2.0",
-                "issues": "https://github.com/City-of-Helsinki/php-hauki-client/issues"
-            },
-            "time": "2022-01-29T09:48:07+00:00"
-        },
-        {
             "name": "commerceguys/addressing",
             "version": "v1.3.0",
             "source": {
@@ -303,39 +241,37 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.12.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19"
+                "reference": "af93ba6e52236418f07a278033eba6959ee5b983"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/d20a64ed3c94748397ff5973488761b22f6d3f19",
-                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19",
+                "url": "https://api.github.com/repos/composer/installers/zipball/af93ba6e52236418f07a278033eba6959ee5b983",
+                "reference": "af93ba6e52236418f07a278033eba6959ee5b983",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0 || ^2.0"
-            },
-            "replace": {
-                "roundcube/plugin-installer": "*",
-                "shama/baton": "*"
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": "^7.2 || ^8.0"
             },
             "require-dev": {
                 "composer/composer": "1.6.* || ^2.0",
                 "composer/semver": "^1 || ^3",
                 "phpstan/phpstan": "^0.12.55",
                 "phpstan/phpstan-phpunit": "^0.12.16",
-                "symfony/phpunit-bridge": "^4.2 || ^5",
-                "symfony/process": "^2.3"
+                "symfony/phpunit-bridge": "^5.3",
+                "symfony/process": "^5"
             },
             "type": "composer-plugin",
             "extra": {
                 "class": "Composer\\Installers\\Plugin",
                 "branch-alias": {
-                    "dev-main": "1.x-dev"
-                }
+                    "dev-main": "2.x-dev"
+                },
+                "plugin-modifies-install-path": true
             },
             "autoload": {
                 "psr-4": {
@@ -356,7 +292,6 @@
             "description": "A multi-framework Composer library installer",
             "homepage": "https://composer.github.io/installers/",
             "keywords": [
-                "Craft",
                 "Dolibarr",
                 "Eliasis",
                 "Hurad",
@@ -377,7 +312,6 @@
                 "Whmcs",
                 "WolfCMS",
                 "agl",
-                "aimeos",
                 "annotatecms",
                 "attogram",
                 "bitrix",
@@ -396,7 +330,6 @@
                 "grav",
                 "installer",
                 "itop",
-                "joomla",
                 "known",
                 "kohana",
                 "laravel",
@@ -424,9 +357,7 @@
                 "silverstripe",
                 "sydes",
                 "sylius",
-                "symfony",
                 "tastyigniter",
-                "typo3",
                 "wordpress",
                 "yawik",
                 "zend",
@@ -434,7 +365,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v1.12.0"
+                "source": "https://github.com/composer/installers/tree/v2.1.1"
             },
             "funding": [
                 {
@@ -450,7 +381,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-13T08:19:44+00:00"
+            "time": "2022-04-13T09:13:00+00:00"
         },
         {
             "name": "composer/semver",
@@ -4027,16 +3958,16 @@
         },
         {
             "name": "drupal/hdbt",
-            "version": "2.3.22",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-hdbt.git",
-                "reference": "2dfeb5669487b261ef2de06bd730d7a1f473e1f0"
+                "reference": "c98fe0c1285cd187281ec49b5fe1a3e043277b7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/2dfeb5669487b261ef2de06bd730d7a1f473e1f0",
-                "reference": "2dfeb5669487b261ef2de06bd730d7a1f473e1f0",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/c98fe0c1285cd187281ec49b5fe1a3e043277b7f",
+                "reference": "c98fe0c1285cd187281ec49b5fe1a3e043277b7f",
                 "shasum": ""
             },
             "require": {
@@ -4051,23 +3982,23 @@
                 "Drupal"
             ],
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/2.3.22",
+                "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/3.0.0",
                 "issues": "https://github.com/City-of-Helsinki/drupal-hdbt/issues"
             },
-            "time": "2022-05-06T11:46:46+00:00"
+            "time": "2022-05-19T07:13:39+00:00"
         },
         {
             "name": "drupal/hdbt_admin",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-hdbt-admin.git",
-                "reference": "d219145b1a2f4593ca70867e432cefed6c61f1ff"
+                "reference": "8a7c65f6d4d34b15eb413eda845ef388ddbd01ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt-admin/zipball/d219145b1a2f4593ca70867e432cefed6c61f1ff",
-                "reference": "d219145b1a2f4593ca70867e432cefed6c61f1ff",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt-admin/zipball/8a7c65f6d4d34b15eb413eda845ef388ddbd01ec",
+                "reference": "8a7c65f6d4d34b15eb413eda845ef388ddbd01ec",
                 "shasum": ""
             },
             "require": {
@@ -4083,43 +4014,10 @@
                 "Drupal"
             ],
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-hdbt-admin/tree/1.6.2",
+                "source": "https://github.com/City-of-Helsinki/drupal-hdbt-admin/tree/1.6.3",
                 "issues": "https://github.com/City-of-Helsinki/drupal-hdbt-admin/issues"
             },
-            "time": "2022-05-13T10:09:38+00:00"
-        },
-        {
-            "name": "drupal/helfi_ahjo",
-            "version": "1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/City-of-Helsinki/drupal-module-helfi-ahjo.git",
-                "reference": "abc9c30a6f430cc7335614a022e6114e1cfd450a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-ahjo/zipball/abc9c30a6f430cc7335614a022e6114e1cfd450a",
-                "reference": "abc9c30a6f430cc7335614a022e6114e1cfd450a",
-                "shasum": ""
-            },
-            "require": {
-                "drupal/helfi_api_base": "*",
-                "ext-json": "*"
-            },
-            "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-                "drupal/coder": "^8.3"
-            },
-            "type": "drupal-module",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "description": "OpenAhjo integration",
-            "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-ahjo/tree/1.0.4",
-                "issues": "https://github.com/City-of-Helsinki/drupal-module-helfi-ahjo/issues"
-            },
-            "time": "2021-05-21T07:49:13+00:00"
+            "time": "2022-05-18T14:53:58+00:00"
         },
         {
             "name": "drupal/helfi_api_base",
@@ -4219,41 +4117,6 @@
             "time": "2022-05-12T05:42:21+00:00"
         },
         {
-            "name": "drupal/helfi_hauki",
-            "version": "1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/City-of-Helsinki/drupal-module-helfi-hauki.git",
-                "reference": "fc2dbcee76a1a0541e5ed731e63815731750a276"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-hauki/zipball/fc2dbcee76a1a0541e5ed731e63815731750a276",
-                "reference": "fc2dbcee76a1a0541e5ed731e63815731750a276",
-                "shasum": ""
-            },
-            "require": {
-                "city-of-helsinki/php-hauki-client": "^1.0",
-                "drupal/helfi_api_base": "*",
-                "drupal/key_value_field": "^1.0",
-                "ext-json": "*"
-            },
-            "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-                "drupal/coder": "^8.3"
-            },
-            "type": "drupal-module",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "description": "Hauki integration",
-            "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-hauki/tree/1.0.5",
-                "issues": "https://github.com/City-of-Helsinki/drupal-module-helfi-hauki/issues"
-            },
-            "time": "2021-05-21T06:10:50+00:00"
-        },
-        {
             "name": "drupal/helfi_media_formtool",
             "version": "dev-main",
             "source": {
@@ -4322,16 +4185,16 @@
         },
         {
             "name": "drupal/helfi_platform_config",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config.git",
-                "reference": "9f0ea0f0508fe096efc7e9e7e7a345f0ee3157b6"
+                "reference": "87703d81de820ac1b29157da65a84b59c3af86cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-helfi-platform-config/zipball/9f0ea0f0508fe096efc7e9e7e7a345f0ee3157b6",
-                "reference": "9f0ea0f0508fe096efc7e9e7e7a345f0ee3157b6",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-helfi-platform-config/zipball/87703d81de820ac1b29157da65a84b59c3af86cf",
+                "reference": "87703d81de820ac1b29157da65a84b59c3af86cf",
                 "shasum": ""
             },
             "require": {
@@ -4441,10 +4304,10 @@
             ],
             "description": "HELfi platform config",
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/tree/2.8.0",
+                "source": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/tree/2.9.0",
                 "issues": "https://github.com/City-of-Helsinki/drupal-helfi-platform-config/issues"
             },
-            "time": "2022-05-06T11:38:11+00:00"
+            "time": "2022-05-19T07:06:25+00:00"
         },
         {
             "name": "drupal/helfi_proxy",
@@ -4487,16 +4350,16 @@
         },
         {
             "name": "drupal/helfi_tpr",
-            "version": "2.0.14",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-module-helfi-tpr.git",
-                "reference": "35657ba6280c9f78fc0ac10d73e01f25e00e93b3"
+                "reference": "fbc9f160119775948eca30b7da9dd4f71a37ce63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-tpr/zipball/35657ba6280c9f78fc0ac10d73e01f25e00e93b3",
-                "reference": "35657ba6280c9f78fc0ac10d73e01f25e00e93b3",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-module-helfi-tpr/zipball/fbc9f160119775948eca30b7da9dd4f71a37ce63",
+                "reference": "fbc9f160119775948eca30b7da9dd4f71a37ce63",
                 "shasum": ""
             },
             "require": {
@@ -4518,10 +4381,10 @@
             ],
             "description": "TPR integration",
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-tpr/tree/2.0.14",
+                "source": "https://github.com/City-of-Helsinki/drupal-module-helfi-tpr/tree/2.1.0",
                 "issues": "https://github.com/City-of-Helsinki/drupal-module-helfi-tpr/issues"
             },
-            "time": "2022-05-03T07:03:42+00:00"
+            "time": "2022-05-19T07:10:22+00:00"
         },
         {
             "name": "drupal/helfi_tunnistamo",
@@ -4652,58 +4515,6 @@
             "homepage": "https://www.drupal.org/project/imagecache_external",
             "support": {
                 "source": "https://git.drupalcode.org/project/imagecache_external"
-            }
-        },
-        {
-            "name": "drupal/key_value_field",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/key_value_field.git",
-                "reference": "8.x-1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/key_value_field-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "30a9cb01cac31059bdf4177d8e0d42fc4865c72a"
-            },
-            "require": {
-                "drupal/core": "^8.7.7 || ^9"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1586279687",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                },
-                "branch-alias": {
-                    "dev-8.x-1.x": "1.x-dev"
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "dawehner",
-                    "homepage": "https://www.drupal.org/user/99340"
-                },
-                {
-                    "name": "japerry",
-                    "homepage": "https://www.drupal.org/user/45640"
-                }
-            ],
-            "description": "Provides a field with a key, value pair along with a description.",
-            "homepage": "https://www.drupal.org/project/key_value_field",
-            "support": {
-                "source": "https://git.drupalcode.org/project/key_value_field",
-                "issues": "https://www.drupal.org/project/issues/key_value_field"
             }
         },
         {
@@ -5608,52 +5419,6 @@
                 }
             ],
             "description": "Provides a generic external cache invalidation API and queue service.",
-            "homepage": "https://www.drupal.org/project/purge",
-            "support": {
-                "source": "https://git.drupalcode.org/project/purge"
-            }
-        },
-        {
-            "name": "drupal/purge_tokens",
-            "version": "3.2.0",
-            "require": {
-                "drupal/core": "^8.7.7 || ^9",
-                "drupal/purge": "^3.0.0-beta9",
-                "php": ">=7.2"
-            },
-            "type": "metapackage",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-3.2",
-                    "datestamp": "1633428281",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                },
-                "branch-alias": {
-                    "dev-8.x-3.x": "3.x-dev"
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Niels van Mourik",
-                    "homepage": "http://www.nielsvm.org"
-                },
-                {
-                    "name": "djbobbydrake",
-                    "homepage": "https://www.drupal.org/user/336378"
-                },
-                {
-                    "name": "nielsvm",
-                    "homepage": "https://www.drupal.org/user/163285"
-                }
-            ],
-            "description": "Adds tokens support for external cache invalidation.",
             "homepage": "https://www.drupal.org/project/purge",
             "support": {
                 "source": "https://git.drupalcode.org/project/purge"
@@ -6684,64 +6449,6 @@
                     "homepage": "https://www.drupal.org/user/2479724"
                 }
             ],
-            "homepage": "https://www.drupal.org/project/varnish_purge",
-            "support": {
-                "source": "https://git.drupalcode.org/project/varnish_purge"
-            }
-        },
-        {
-            "name": "drupal/varnish_purger",
-            "version": "2.1.0",
-            "require": {
-                "drupal/core": "^8 || ^9",
-                "drupal/purge": "~3.0",
-                "drupal/purge_tokens": "*",
-                "drupal/varnish_purge": "^2"
-            },
-            "require-dev": {
-                "behat/mink-extension": "v2.2",
-                "behat/mink-selenium2-driver": "1.3.x-dev",
-                "bex/behat-screenshot": "dev-master",
-                "drupal/coder": "^8.3",
-                "drupal/drupal-extension": "master-dev",
-                "drupal/purge": "dev-3.x",
-                "phpmd/phpmd": "dev-master",
-                "phpmetrics/phpmetrics": "dev-master"
-            },
-            "type": "metapackage",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-2.1",
-                    "datestamp": "1615977068",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "MiSc",
-                    "homepage": "https://www.drupal.org/user/382892"
-                },
-                {
-                    "name": "deadbeef",
-                    "homepage": "https://www.drupal.org/user/93644"
-                },
-                {
-                    "name": "javivf",
-                    "homepage": "https://www.drupal.org/user/2789335"
-                },
-                {
-                    "name": "littlethoughts",
-                    "homepage": "https://www.drupal.org/user/2479724"
-                }
-            ],
-            "description": "Provides a purger for Varnish for Purger module.",
             "homepage": "https://www.drupal.org/project/varnish_purge",
             "support": {
                 "source": "https://git.drupalcode.org/project/varnish_purge"
@@ -16670,7 +16377,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/flysystem_azure": 20,
         "drupal/helfi_drupal_tools": 20
     },
     "prefer-stable": true,
