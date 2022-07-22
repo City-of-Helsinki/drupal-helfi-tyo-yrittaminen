@@ -1,0 +1,19 @@
+uuid: 7057a1d0-a1dd-4b0f-82a3-aebf1f7ce851
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.phasing
+id: paragraph.phasing.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: phasing
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

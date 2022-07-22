@@ -42,6 +42,7 @@ settings:
       map: map
       chart: chart
       event_list: event_list
+      phasing: phasing
     negate: 0
     target_bundles_drag_drop:
       accordion:
@@ -95,6 +96,12 @@ settings:
       map:
         weight: -20
         enabled: true
+      phasing:
+        weight: 50
+        enabled: true
+      phasing_item:
+        weight: 30
+        enabled: false
       remote_video:
         weight: 27
         enabled: true
