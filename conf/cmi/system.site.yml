@@ -3,7 +3,7 @@ _core:
 langcode: en
 uuid: d135b147-edaa-44ba-bced-0c75d5de1e81
 name: 'Business and Work'
-mail: admin@example.com
+mail: drupal@hel.fi
 slogan: ''
 page:
   403: ''
