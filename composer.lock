@@ -3875,16 +3875,16 @@
         },
         {
             "name": "drupal/hdbt",
-            "version": "3.0.21",
+            "version": "3.0.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-hdbt.git",
-                "reference": "0909c1784119ee0c41d3b2584b1709e9a2cee223"
+                "reference": "6bb6d24a8de9c242b8d09fe60073fd899a350d52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/0909c1784119ee0c41d3b2584b1709e9a2cee223",
-                "reference": "0909c1784119ee0c41d3b2584b1709e9a2cee223",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt/zipball/6bb6d24a8de9c242b8d09fe60073fd899a350d52",
+                "reference": "6bb6d24a8de9c242b8d09fe60073fd899a350d52",
                 "shasum": ""
             },
             "require": {
@@ -3899,10 +3899,10 @@
                 "Drupal"
             ],
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/3.0.21",
+                "source": "https://github.com/City-of-Helsinki/drupal-hdbt/tree/3.0.22",
                 "issues": "https://github.com/City-of-Helsinki/drupal-hdbt/issues"
             },
-            "time": "2022-07-20T11:23:45+00:00"
+            "time": "2022-08-12T07:59:25+00:00"
         },
         {
             "name": "drupal/hdbt_admin",
@@ -12245,16 +12245,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.15.1",
+            "version": "v2.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3b7cedb2f736899a7dbd0ba3d6da335a015f5cc4"
+                "reference": "3e43405a9a8b578809426339cc3780e16fba0c52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3b7cedb2f736899a7dbd0ba3d6da335a015f5cc4",
-                "reference": "3b7cedb2f736899a7dbd0ba3d6da335a015f5cc4",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3e43405a9a8b578809426339cc3780e16fba0c52",
+                "reference": "3e43405a9a8b578809426339cc3780e16fba0c52",
                 "shasum": ""
             },
             "require": {
@@ -12309,7 +12309,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v2.15.1"
+                "source": "https://github.com/twigphp/Twig/tree/v2.15.2"
             },
             "funding": [
                 {
@@ -12321,7 +12321,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-17T05:46:24+00:00"
+            "time": "2022-08-12T06:43:37+00:00"
         },
         {
             "name": "twistor/flysystem-stream-wrapper",
@@ -16368,5 +16368,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
