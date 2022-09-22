@@ -55,6 +55,7 @@ module:
   helfi_media: 0
   helfi_media_map: 0
   helfi_media_map_config: 0
+  helfi_navigation: 0
   helfi_platform_config: 0
   helfi_proxy: 0
   helfi_toc: 0
@@ -135,7 +136,6 @@ module:
   minimal: 1000
   eu_cookie_compliance: 1001
 theme:
-  stark: 0
   stable9: 0
   claro: 0
   hdbt: 0
