@@ -1,0 +1,10 @@
+uuid: aa5a9838-2464-4614-b1cf-1564bf9409bc
+langcode: en
+status: true
+dependencies: {  }
+id: target_group_link_item
+label: 'Target group link item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
