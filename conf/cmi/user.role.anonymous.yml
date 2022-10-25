@@ -19,6 +19,5 @@ permissions:
   - 'display eu cookie compliance popup'
   - 'view media'
   - 'view remote entities'
-  - 'view tpr_ontology_word_details'
   - 'view tpr_service'
   - 'view tpr_unit'
