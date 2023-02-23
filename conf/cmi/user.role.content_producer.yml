@@ -10,7 +10,6 @@ dependencies:
     - media.type.helfi_chart
     - media.type.image
     - media.type.remote_video
-    - media.type.soundcloud
     - node.type.announcement
     - node.type.landing_page
     - node.type.page
@@ -21,6 +20,7 @@ dependencies:
     - file
     - filter
     - helfi_api_base
+    - helfi_tpr
     - media
     - node
     - paragraphs
@@ -44,6 +44,8 @@ permissions:
   - 'access remote entities overview'
   - 'access taxonomy overview'
   - 'access toolbar'
+  - 'access tpr_service overview'
+  - 'access tpr_unit overview'
   - 'access user profiles'
   - 'administer nodes'
   - 'administer paragraphs library'
@@ -59,7 +61,6 @@ permissions:
   - 'create page content'
   - 'create paragraph library item'
   - 'create remote_video media'
-  - 'create soundcloud media'
   - 'create terms in keywords'
   - 'create url aliases'
   - 'delete media'
@@ -71,7 +72,6 @@ permissions:
   - 'delete own landing_page content'
   - 'delete own page content'
   - 'delete own remote_video media'
-  - 'delete own soundcloud media'
   - 'edit any announcement content'
   - 'edit any file media'
   - 'edit any hel_map media'
@@ -80,7 +80,6 @@ permissions:
   - 'edit any landing_page content'
   - 'edit any page content'
   - 'edit any remote_video media'
-  - 'edit any soundcloud media'
   - 'edit own announcement content'
   - 'edit own file media'
   - 'edit own hel_map media'
@@ -89,7 +88,6 @@ permissions:
   - 'edit own landing_page content'
   - 'edit own page content'
   - 'edit own remote_video media'
-  - 'edit own soundcloud media'
   - 'edit paragraph library item'
   - 'edit terms in keywords'
   - 'revert announcement revisions'
@@ -100,11 +98,17 @@ permissions:
   - 'set landing_page published on date'
   - 'set page published on date'
   - 'translate editable entities'
+  - 'update any tpr_service'
+  - 'update any tpr_unit'
   - 'update media'
+  - 'update own tpr_service'
+  - 'update own tpr_unit'
   - 'use text format full_html'
   - 'use text format minimal'
   - 'view all media revisions'
   - 'view all revisions'
+  - 'view all tpr_service revisions'
+  - 'view all tpr_unit revisions'
   - 'view announcement revisions'
   - 'view any unpublished content'
   - 'view any unpublished landing_page content'
@@ -118,15 +122,7 @@ permissions:
   - 'view scheduled content'
   - 'view the administration theme'
   - 'view unpublished paragraphs'
-  - 'access tpr_service overview'
-  - 'access tpr_unit overview'
   - 'view unpublished tpr_errand_service'
   - 'view unpublished tpr_service'
   - 'view unpublished tpr_service_channel'
   - 'view unpublished tpr_unit'
-  - 'update any tpr_service'
-  - 'update any tpr_unit'
-  - 'update own tpr_service'
-  - 'update own tpr_unit'
-  - 'view all tpr_service revisions'
-  - 'view all tpr_unit revisions'
