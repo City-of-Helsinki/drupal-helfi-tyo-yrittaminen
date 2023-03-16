@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - helfi_tpr
     - paragraphs
     - toolbar
     - view_unpublished
