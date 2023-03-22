@@ -7,7 +7,9 @@ dependencies:
   module:
     - eu_cookie_compliance
     - helfi_api_base
+    - helfi_tpr
     - media
+    - paragraphs
     - rest
     - system
     - toolbar
@@ -19,8 +21,11 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
+  - 'access toolbar'
   - 'display eu cookie compliance popup'
+  - 'restful get helfi_global_mobile_menu'
   - 'view media'
   - 'view remote entities'
-  - 'access toolbar'
-  - 'restful get helfi_global_mobile_menu'
+  - 'view tpr_service'
+  - 'view tpr_unit'
+  - 'view unpublished paragraphs'
