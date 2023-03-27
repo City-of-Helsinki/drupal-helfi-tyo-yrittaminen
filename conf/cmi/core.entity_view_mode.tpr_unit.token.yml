@@ -1,0 +1,10 @@
+uuid: 0c36c4b7-a91b-4938-a339-38f8dd81abe7
+langcode: en
+status: true
+dependencies:
+  module:
+    - helfi_tpr
+id: tpr_unit.token
+label: Token
+targetEntityType: tpr_unit
+cache: true
