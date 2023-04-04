@@ -1,4 +1,4 @@
-uuid: fe970812-9614-46e9-a25a-678a970b3240
+uuid: d244bef6-5a00-42b0-8291-38fbc89dfc2d
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views_bulk_operations
     - views_bulk_edit
     - content_lock
+_core:
+  default_config_hash: 0Q9MnLuLAYwltkBeCL-al8z-gc3-M2SFIWM50exDgxg
 id: tpr_unit_list
 label: 'TPR unit list'
 module: views
