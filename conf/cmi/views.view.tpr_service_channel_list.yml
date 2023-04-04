@@ -1,10 +1,8 @@
-uuid: d28a3e13-e8a4-4256-920c-e154d51e492b
+uuid: 1ce2c344-3716-49aa-ac14-ee0ca40e69b5
 langcode: en
 status: true
 dependencies:
   module:
-    - helfi_tpr
-    - user
     - helfi_tpr
     - user
 _core:
@@ -626,7 +624,6 @@ display:
         operator: AND
         groups:
           - AND
-          - AND
       style:
         type: table
         options:
@@ -720,11 +717,6 @@ display:
         - url
         - url.query_args
         - user.permissions
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url
-        - url.query_args
-        - user.permissions
       tags: {  }
   page_1:
     id: page_1
@@ -737,11 +729,6 @@ display:
     cache_metadata:
       max-age: 0
       contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url
-        - url.query_args
-        - user.permissions
         - 'languages:language_content'
         - 'languages:language_interface'
         - url

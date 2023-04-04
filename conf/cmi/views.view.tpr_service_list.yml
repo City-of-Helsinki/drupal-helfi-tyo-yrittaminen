@@ -1,14 +1,10 @@
-uuid: 325fd014-bd24-45da-b1e5-80774ea709a0
+uuid: 3342d3eb-3f14-4fc0-a949-b2b0e901e0b7
 langcode: en
 status: true
 dependencies:
   module:
     - helfi_tpr
     - user
-    - helfi_tpr
-    - user
-_core:
-  default_config_hash: rO8m-2SU4UjJoGRHWn5CfFPKwy59J2U_J0xJq6MZpjA
 id: tpr_service_list
 label: 'TPR service list'
 module: views
@@ -720,11 +716,6 @@ display:
         - url
         - url.query_args
         - user.permissions
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url
-        - url.query_args
-        - user.permissions
       tags: {  }
   page_1:
     id: page_1
@@ -738,11 +729,6 @@ display:
     cache_metadata:
       max-age: 0
       contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url
-        - url.query_args
-        - user.permissions
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
