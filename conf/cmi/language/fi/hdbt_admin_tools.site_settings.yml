@@ -1,6 +1,6 @@
 footer_settings:
   footer_color: dark
 site_settings:
-  theme_color: silver
   default_icon: group
   koro: basic
+  theme_color: silver
