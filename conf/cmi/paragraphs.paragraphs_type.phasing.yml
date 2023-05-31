@@ -2,6 +2,8 @@ uuid: 2c79af47-02ec-44ca-9652-62fc711fbc95
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: CphXRMiR64m3hR6xe7sOLltnL1duy_jLWvRURd3cNIw
 id: phasing
 label: Phasing
 icon_uuid: null
