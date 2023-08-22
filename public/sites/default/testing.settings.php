@@ -7,4 +7,5 @@ $config['helfi_proxy.settings']['prefixes'] = [
   'fi' => 'test-yritykset-ja-tyo',
   'sv' => 'test-foretag-och-arbete',
   'ru' => 'test-business-and-work',
+  'zxx' => 'test-business-and-work',
 ];
