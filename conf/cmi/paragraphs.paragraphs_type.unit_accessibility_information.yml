@@ -1,0 +1,12 @@
+uuid: dbce153f-babd-47e2-9b52-88261a28f334
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: IvgO4i6-a_b1sr6K4GuswMmeIQSPOmChMj2153m_UtE
+id: unit_accessibility_information
+label: 'Unit accessibility information'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
