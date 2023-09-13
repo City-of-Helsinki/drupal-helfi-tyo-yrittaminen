@@ -1,0 +1,20 @@
+uuid: 02383eb6-6c81-46f5-a649-ce1c5174525f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 1kY30D0bv455CcZ4b8UfYmGcJUpG53xYQLMGUow4tKk
+id: paragraph.field_unit_contact_use_address
+field_name: field_unit_contact_use_address
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
