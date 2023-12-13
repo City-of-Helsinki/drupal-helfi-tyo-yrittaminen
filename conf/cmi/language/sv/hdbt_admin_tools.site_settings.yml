@@ -1,5 +1,4 @@
-footer_settings:
-  footer_color: dark
 site_settings:
-  default_icon: group
   theme_color: silver
+  default_icon: abstract-1
+  koro: basic
