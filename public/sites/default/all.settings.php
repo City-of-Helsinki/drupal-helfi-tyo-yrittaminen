@@ -5,6 +5,21 @@
  * Contains site specific overrides.
  */
 
+$config['openid_connect.client.tunnistamo']['settings']['ad_roles'] = [
+  [
+    'ad_role' => 'Drupal_Helfi_kaupunkitaso_paakayttajat',
+    'roles' => ['admin'],
+  ],
+  [
+    'ad_role' => 'Drupal_Helfi_Tyo_ja_yrittäminen_sisallontuottajat_laaja',
+    'roles' => ['editor'],
+  ],
+  [
+    'ad_role' => 'Drupal_Helfi_Tyo_ja_yrittäminen_sisallontuottajat_suppea',
+    'roles' => ['content_producer'],
+  ],
+];
+
 $additionalEnvVars = [
   'AZURE_BLOB_STORAGE_SAS_TOKEN|BLOBSTORAGE_SAS_TOKEN',
   'AZURE_BLOB_STORAGE_NAME',
