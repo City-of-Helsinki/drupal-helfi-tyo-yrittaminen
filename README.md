@@ -1,6 +1,6 @@
-# City of Helsinki - ELO Drupal 9 project
+# City of Helsinki - ELO Drupal project
 
-Elo (Yritykset ja työ, former Työ ja yrittäminen) contains work and enterpreneuership releated topics.
+ELO (Yritykset ja työ, formerly known as Työ ja yrittäminen) covers topics related to work and entrepreneurship.
 
 ## Environments
 
@@ -43,4 +43,4 @@ $ make shell
 
 ## Instance specific features
 
-Elo has no instance specific features.
+ELO has no instance specific features.
