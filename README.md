@@ -1,11 +1,13 @@
-# City of Helsinki - ELO Drupal 9 project
+# City of Helsinki - ELO Drupal project
+
+ELO (Yritykset ja työ, formerly known as Työ ja yrittäminen) covers topics related to work and entrepreneurship.
 
 ## Environments
 
 Env | Branch | Drush alias | URL
 --- | ------ | ----------- | ---
 development | * | - | https://helfi-elo.docker.so/
-production | main | @main | TBD
+production | main | @main | https://hel.fi/fi/yritykset-ja-tyo
 
 ## Requirements
 
@@ -38,3 +40,7 @@ This will log you inside the app container:
 ```
 $ make shell
 ```
+
+## Instance specific features
+
+ELO has no instance specific features.
