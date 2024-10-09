@@ -1,0 +1,17 @@
+uuid: 85966a0f-05e4-4d71-a626-5ad964da27c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: BAFNReN7tDKFf-aDohDCqKdXeaUeWmQNbfWVivqg53I
+id: calculator
+label: Calculator
+icon_uuid: null
+icon_default: null
+description: 'A paragraph that adds a predefined calculator to the page.'
+behavior_plugins: {  }
