@@ -4247,6 +4247,7 @@
                 "issues": "https://github.com/City-of-Helsinki/drupal-module-helfi-api-base/issues"
             },
             "time": "2024-11-08T08:31:53+00:00"
+
         },
         {
             "name": "drupal/helfi_azure_fs",
@@ -19393,7 +19394,7 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
+    "platform": [],
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
