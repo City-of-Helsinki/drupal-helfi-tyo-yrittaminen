@@ -1,5 +1,3 @@
 site_settings:
   default_icon: group
   theme_color: silver
-footer_settings:
-  footer_color: dark
