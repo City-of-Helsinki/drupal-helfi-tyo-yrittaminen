@@ -1,4 +1,4 @@
-uuid: 03fa863c-504c-4cb9-ae5a-d74fba732a32
+uuid: 01e5cdc8-1228-4919-8fd2-3bc34596edb1
 langcode: en
 status: true
 dependencies:
@@ -33,6 +33,5 @@ hidden:
   field_photographer: true
   langcode: true
   name: true
-  search_api_excerpt: true
   thumbnail: true
   uid: true
