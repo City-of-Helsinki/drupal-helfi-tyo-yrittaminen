@@ -4315,16 +4315,16 @@
         },
         {
             "name": "drupal/hdbt_admin",
-            "version": "3.4.8",
+            "version": "3.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/City-of-Helsinki/drupal-hdbt-admin.git",
-                "reference": "67ee4923335a8688aeefdd7010173cc6b4e6988a"
+                "reference": "7a5b4a5c82eee38254e9cde6ec0aec655f208ddd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt-admin/zipball/67ee4923335a8688aeefdd7010173cc6b4e6988a",
-                "reference": "67ee4923335a8688aeefdd7010173cc6b4e6988a",
+                "url": "https://api.github.com/repos/City-of-Helsinki/drupal-hdbt-admin/zipball/7a5b4a5c82eee38254e9cde6ec0aec655f208ddd",
+                "reference": "7a5b4a5c82eee38254e9cde6ec0aec655f208ddd",
                 "shasum": ""
             },
             "require": {
@@ -4332,6 +4332,7 @@
                 "drupal/gin": "^4.0 || ^5.0"
             },
             "conflict": {
+                "drupal/gin": ">5.0.11",
                 "drupal/helfi_api_base": "<2.7.6",
                 "drupal/helfi_platform_config": "<4.16.68"
             },
@@ -4344,10 +4345,10 @@
                 "Drupal"
             ],
             "support": {
-                "source": "https://github.com/City-of-Helsinki/drupal-hdbt-admin/tree/3.4.8",
+                "source": "https://github.com/City-of-Helsinki/drupal-hdbt-admin/tree/3.4.16",
                 "issues": "https://github.com/City-of-Helsinki/drupal-hdbt-admin/issues"
             },
-            "time": "2025-12-02T15:17:30+00:00"
+            "time": "2026-04-28T07:22:24+00:00"
         },
         {
             "name": "drupal/health_check",
@@ -20615,5 +20616,5 @@
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
