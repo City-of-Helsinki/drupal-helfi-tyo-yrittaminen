@@ -1,11 +1,13 @@
 ((drupalSettings) => {
   const NODE_BOOK_ADVISORY = 'node/115';
   const NODE_EVENTS = 'node/143';
-  const NODE_NEWSLETTER = 'node/269';
   const NODES_CTA = ['node/111', 'node/147'];
 
   const BOOKING_URL = 'https://customervoice.microsoft.com/';
   const NEWSLETTER_URL = 'https://assets-eur.mkt.dynamics.com/';
+  // Event list root: hdbt 6.18 uses a class (several lists per page), older
+  // versions an id.
+  const EVENT_CARD_LINK = '.helfi-events-search .card__link, #helfi-events-search .card__link';
   const DOWNLOAD_EXTENSIONS = /\.(pdf|docx?|xlsx?|pptx?|odt|ods|odp|zip)$/i;
 
   const currentPath = drupalSettings?.path?.currentPath;
@@ -56,15 +58,9 @@
       }
     },
     [NODE_EVENTS]: (link) => {
-      const title =
-        link.matches('#helfi-events-search .card__link') && link.closest('.card')?.querySelector('.card__title');
+      const title = link.matches(EVENT_CARD_LINK) && link.closest('.card')?.querySelector('.card__title');
       if (title) {
         trackEvent('Events', 'Click', `Event_${getText(title)}`);
-      }
-    },
-    [NODE_NEWSLETTER]: (link) => {
-      if (link.href.startsWith(NEWSLETTER_URL)) {
-        trackEvent('Events', 'Click', 'Subscribe_newsletter');
       }
     },
   };
@@ -79,13 +75,20 @@
 
   const handler = handlers[currentPath];
 
-  if (!handler) {
-    return;
-  }
-
   document.addEventListener('click', (event) => {
-    const link = event.target instanceof Element && event.target.closest('main a[href]');
-    if (link) {
+    const link = event.target instanceof Element && event.target.closest('a[href]');
+    if (!link) {
+      return;
+    }
+
+    // The newsletter button is shown on many pages, so it is tracked
+    // everywhere and takes precedence over the page specific events.
+    if (link.href.startsWith(NEWSLETTER_URL)) {
+      trackEvent('Events', 'Click', 'Subscribe_newsletter');
+      return;
+    }
+
+    if (handler && link.closest('main')) {
       handler(link);
     }
   });
