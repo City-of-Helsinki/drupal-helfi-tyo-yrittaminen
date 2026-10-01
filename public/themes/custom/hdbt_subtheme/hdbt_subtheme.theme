@@ -45,8 +45,10 @@ function hdbt_subtheme_theme_suggestions_menu_alter(&$suggestions, $variables) {
 
 /**
  * Implements hook_preprocess_HOOK().
+ *
+ * @phpstan-param array<string, mixed> $variables
  */
-function hdbt_subtheme_preprocess_html(&$variables): void {
+function hdbt_subtheme_preprocess_html(array &$variables): void {
   if (in_array('hdbt/matomo', $variables['#attached']['library'] ?? [], TRUE)) {
     $variables['#attached']['library'][] = 'hdbt_subtheme/matomo';
   }
