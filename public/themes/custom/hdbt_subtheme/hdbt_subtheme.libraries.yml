@@ -5,3 +5,13 @@ global-styling:
       dist/css/styles.min.css: {}
 #     Uncomment following line to load custom svg icon styles.
 #     dist/css/hdbt-subtheme-icons.css: {}
+
+matomo:
+  version: HELFI_DEPLOYMENT_IDENTIFIER
+  js:
+    dist/js/matomo.min.js: {
+      minified: true
+    }
+  dependencies:
+    - core/drupalSettings
+    - hdbt/matomo
