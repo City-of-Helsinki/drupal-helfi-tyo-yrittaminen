@@ -5,6 +5,9 @@
  * Contains site specific overrides.
  */
 
+// Sentry DSN for React.
+$config['react_search.settings']['sentry_dsn_react'] = getenv('SENTRY_DSN_REACT');
+
 $config['openid_connect.client.tunnistamo']['settings']['ad_roles'] = [
   [
     'ad_role' => 'Drupal_Helfi_kaupunkitaso_paakayttajat',
